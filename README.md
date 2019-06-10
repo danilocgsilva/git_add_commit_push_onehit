@@ -8,6 +8,8 @@ git push
 ```
 is much frequently typed in my day-by-day development life. So, why just do it in just one line? This grants me security in saving my work in the secure remote repository.
 
+Also, you have the version without pushing to central repository (see bellow).
+
 Please, stay tunned in writing useful git messages: https://chris.beams.io/posts/git-commit
 
 ## Installation
@@ -23,3 +25,8 @@ In your command line, inside your working directory:
 ```
 gacp "Your commit message"
 ```
+or
+```
+gac "Your commit message"
+```
+For not pushing version.
