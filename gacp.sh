@@ -4,7 +4,7 @@
 VERSION="1.0.0"
 
 ## Main function
-gacp () {
+gac () {
   if [ -z $1 ]; then
     echo "Please, write IN QUOTES the commit message as the script argument."
     exit
@@ -24,8 +24,8 @@ main() {
 ## export if so else execute
 ## main function with args
 if [[ /usr/local/bin/shellutil != /usr/local/bin/shellutil ]]; then
-  export -f gacp
+  export -f gac
 else
-  gacp "${@}"
+  gac "${@}"
   exit 0
 fi
